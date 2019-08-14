@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+<acl>
+    <resources>
+        <all>
+            <title>Allow Everything</title>
+        </all>
+        <admin>
+            <children>
+                <Ti_Autocrossupsell>
+                    <title>Auto cross-sells Module</title>
+                    <sort_order>10</sort_order>
+                </Ti_Autocrossupsell>
+                <system>
+                    <children>
+                        <config>
+                            <children>
+                                <autocrossupsell translate="title" module="ti_autocrossupsell">
+                                    <title>Auto cross-sells Settings</title>
+                                    <sort_order>50</sort_order>
+                                </autocrossupsell>
+                            </children>
+                        </config>
+                    </children>
+                </system>
+            </children>
+        </admin>
+    </resources>
+</acl>
+</config>
